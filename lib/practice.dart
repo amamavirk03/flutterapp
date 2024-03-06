@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class PracticeScreen extends StatefulWidget {
   const PracticeScreen({super.key});
@@ -14,7 +15,7 @@ class _PracticeScreenState extends State<PracticeScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: Icon(Icons.construction_rounded,size: 50,color: Colors.amber,),
+        title: Text("Amama" , style: GoogleFonts.autourOne(fontSize: 40)),
         centerTitle: true,
         leading: Icon(Icons.abc,size: 30,color: Colors.amber,),
         actions: [Icon(Icons.abc,size: 30,color: Colors.amber,),],
