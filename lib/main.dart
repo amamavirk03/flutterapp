@@ -1,5 +1,6 @@
 import 'package:firstapp/buildingappscreen.dart';
 import 'package:firstapp/practice.dart';
+import 'package:firstapp/watsappapp.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const BuildingAppScreen(),
+      home: const WatsappApp(),
     );
   }
 }
