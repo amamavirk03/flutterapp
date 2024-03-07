@@ -17,7 +17,7 @@ class _WatsappAppState extends State<WatsappApp> {
         backgroundColor: Color(
           0xff008069,
         ),
-        actions: [
+        actions: const [
           Icon(
             Icons.camera_alt_outlined,
             size: 25,
@@ -44,7 +44,7 @@ class _WatsappAppState extends State<WatsappApp> {
           ),
         ],
         title: Text(
-          "Watsappp",
+          "WhatsApp",
           style: GoogleFonts.poppins(
             fontSize: 20,
             fontWeight: FontWeight.w600,

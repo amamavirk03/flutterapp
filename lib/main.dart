@@ -1,5 +1,7 @@
 import 'package:firstapp/buildingappscreen.dart';
+import 'package:firstapp/containerprac.dart';
 import 'package:firstapp/practice.dart';
+import 'package:firstapp/task1.dart';
 import 'package:firstapp/watsappapp.dart';
 import 'package:flutter/material.dart';
 
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const WatsappApp(),
+      home: const Task1(),
     );
   }
 }
