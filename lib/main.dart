@@ -1,5 +1,8 @@
+import 'package:firstapp/Task2.dart';
 import 'package:firstapp/buildingappscreen.dart';
+import 'package:firstapp/buttonPractice.dart';
 import 'package:firstapp/containerprac.dart';
+import 'package:firstapp/imagepractice.dart';
 import 'package:firstapp/login.dart';
 import 'package:firstapp/practice.dart';
 import 'package:firstapp/task1.dart';
@@ -23,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LoginPage(),
+      home: const Task2(),
     );
   }
 }

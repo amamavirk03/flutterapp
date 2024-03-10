@@ -64,7 +64,7 @@ class _LoginPageState extends State<LoginPage> {
             ),
             SizedBox(
               width: 40,
-              height: 25,
+              height: 10,
             ),
             Text(
               "LOGIN",
@@ -131,6 +131,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 decoration: BoxDecoration(
                   color: Color(0xff008069),
+                  borderRadius: BorderRadius.circular(7),
                 ),
                 width: 180,
                 height: 60,
